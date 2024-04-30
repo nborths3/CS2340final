@@ -1,3 +1,5 @@
+package Scenario1;
+
 public class FavoritesDecorator extends Decorator{
 
     private String fav;

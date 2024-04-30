@@ -1,3 +1,5 @@
+package Scenario1;
+
 public class SimilarityScoreDecorator extends Decorator{
 
     private int simScore;

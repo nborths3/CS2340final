@@ -1,3 +1,5 @@
+package Scenario1;
+
 public class Main {
     public static void main(String[] args) {
         Movie movie1 = new BaseMovie("Titanic");

@@ -1,3 +1,5 @@
+package Scenario1;
+
 public class RatingDecorator extends Decorator{
 
     private int rating;

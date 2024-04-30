@@ -1,3 +1,5 @@
+package Scenario1;
+
 public class BaseMovie implements Movie {
 
     String title;
