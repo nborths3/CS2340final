@@ -13,7 +13,7 @@ public class ChildRecommendationStrategy implements RecommendationStrategy {
         List<Movie> recommendations = movies.stream()
             .filter(movie -> movie.getGenre().equals("Family") || movie.getGenre().equals("Animation"))
             .filter(movie -> movie.isKidFriendly())
-            .sorted((a, b) -> b.getRating() - a.getRating()) // Assuming rating is out of 10
+            .sorted((a, b) -> b.getRating() - a.getRating())
             .limit(5)
             .collect(Collectors.toList());
 
